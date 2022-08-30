@@ -17,7 +17,7 @@ url2 = "https://www.googleapis.com/drive/v3/files/14-zRh0M2sCNCf4wF_IazLEvrgSyb_
 pipe = pickle.load(urllib.request.urlopen(url1))
 df = pickle.load(urllib.request.urlopen(url2))
 
-st.title("Laptop Predictor")
+st.title("Laptop Price Predictor")
 
 # brand
 company = st.selectbox('Brand',df['Company'].unique())
